@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0px 80px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.js {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0 0 10px rgba(190, 190, 190, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding: 0px 400px;
+}
+
+.task {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 5</title>
+    <link rel="stylesheet" href="homework5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Home Work 5</h1>
+        <div class="task">
+            <h2>Task 1: BMI Calculator</h2>
+            <input type="number" id="height" placeholder="Enter height in meters">
+            <input type="number" id="weight" placeholder="Enter weight in kilograms">
+            <button onclick="calculateBMIDOM()">Calculate BMI</button>
+            <p id="bmi-result"></p>
+        </div>
+        <div class="task">
+            <h2>Task 2: Simple To-Do List</h2>
+            <input type="text" id="todo-item" placeholder="Enter a to-do item">
+            <button onclick="addToDo()">Add To-Do</button>
+            <ul id="todo-list"></ul>
+        </div>
+        <div class="task">
+            <h2>Task 3: Background Color Changer</h2>
+            <button onclick="changeBackgroundColor('rgb(189, 100, 100)')" style="background-color: rgb(189, 100, 100);">Red</button>
+            <button onclick="changeBackgroundColor('rgb(139, 139, 207)')" style="background-color: rgb(139, 139, 207);">Blue</button>
+            <button onclick="changeBackgroundColor('rgb(144, 208, 136)')" style="background-color: rgb(144, 208, 136);">Green</button>
+            <button onclick="changeBackgroundColor('rgb(241, 241, 136)')" style="background-color: rgb(241, 241, 136);">Yellow</button>
+            <button onclick="changeBackgroundColor('rgb(204, 144, 236)')" style="background-color: rgb(204, 144, 236);">Purple</button>
+        </div>
+    </div>
+    <script src="homework5.js"></script>
+</body>
+</html>

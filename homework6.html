@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 6</title>
+    <link rel="stylesheet" href="homework6.css">
+</head>
+<body>
+    <h1>Home Work 6</h1>
+    
+    <section>
+        <h2>Task 1:To-Do List</h2>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Enter a new task" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </section>
+
+    <section>
+        <h2>Task 2: Interactive Quiz</h2>
+        <form id="quiz-form">
+            <div>
+                <p>1. What is the capital of France?</p>
+                <label><input type="radio" name="question1" value="Paris"> Paris</label>
+                <label><input type="radio" name="question1" value="London"> London</label>
+                <label><input type="radio" name="question1" value="Berlin"> Berlin</label>
+            </div>
+            <div>
+                <p>2. Which language runs in a web browser?</p>
+                <label><input type="radio" name="question2" value="JavaScript"> JavaScript</label>
+                <label><input type="radio" name="question2" value="Python"> Python</label>
+                <label><input type="radio" name="question2" value="Java"> Java</label>
+            </div>
+            <div>
+                <p>3. What does CSS stand for?</p>
+                <label><input type="radio" name="question3" value="Cascading Style Sheets"> Cascading Style Sheets</label>
+                <label><input type="radio" name="question3" value="Computer Style Sheets"> Computer Style Sheets</label>
+                <label><input type="radio" name="question3" value="Creative Style Sheets"> Creative Style Sheets</label>
+            </div>
+            <button type="button" id="submit-quiz">Submit Quiz</button>
+        </form>
+        <p id="quiz-score"></p>
+    </section>
+
+    <section>
+        <h2>Task 3: Expense Tracker</h2>
+        <form id="expense-form">
+            <input type="text" id="expense-description" placeholder="Description" required>
+            <input type="number" id="expense-amount" placeholder="Amount" step="0.01" required>
+            <input type="date" id="expense-date" required>
+            <button type="submit">Add Expense</button>
+        </form>
+        <ul id="expense-list"></ul>
+        <p id="total-expense">Total Expense: Rs0.00</p>
+    </section>
+
+    <script src="homework6.js"></script>
+</body>
+</html>
